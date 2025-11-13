@@ -20,13 +20,3 @@ config.local.js
 # Ignore operating system specific files
 .DS_Store
 Thumbs.db
-
-# Ignore compiled Python files
-*.pyc
-__pycache__/
-
-# Ignore compiled Java files
-*.class
-
-# Ignore executable files
-*.exe
