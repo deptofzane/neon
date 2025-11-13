@@ -1,0 +1,32 @@
+# Ignore all .log files
+*.log
+
+# Ignore directories commonly used for dependencies and build output
+node_modules/
+dist/
+build/
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.bak
+
+# Ignore sensitive configuration files
+.env
+config.local.js
+
+# Ignore operating system specific files
+.DS_Store
+Thumbs.db
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore compiled Java files
+*.class
+
+# Ignore executable files
+*.exe
