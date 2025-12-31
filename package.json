@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gitbuild": "ng build --configuration production --base-href 'https://deptofzane.github.io/neon/'"
   },
   "prettier": {
     "printWidth": 100,
