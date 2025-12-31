@@ -3,8 +3,8 @@
 
 # Ignore directories commonly used for dependencies and build output
 node_modules/
-dist/
 build/
+.angular/
 
 # Ignore IDE-specific files and directories
 .vscode/
