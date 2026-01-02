@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  background-color: #2A0E07;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+}
+
+.main-text {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+@media (min-width: 720px) {
+  .main-image {
+    width: 720px;
+    height: 720px;
+    max-width: 100%;
+    aspect-ratio: 1 / 1;
+  }
+}
